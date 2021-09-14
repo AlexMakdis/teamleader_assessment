@@ -1,0 +1,19 @@
+{
+  "name": "teamleader_assessment",
+  "version": "1.0.0",
+  "description": "Assessment for Teamleader: Pricing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Sass",
+    "Bootstrap"
+  ],
+  "author": "Alex Makdis Afrim",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.1",
+    "sass": "^1.39.0"
+  }
+}

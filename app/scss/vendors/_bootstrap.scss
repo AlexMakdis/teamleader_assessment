@@ -1,0 +1,63 @@
+/*
+ * Bootstrap
+ *
+*/
+
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+// Custom settings
+.container2 {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container{
+    max-width: 460px;
+  }
+  .container2 {
+    max-width: 620px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container{
+    max-width: 620px;
+  }
+  .container2 {
+    max-width: 840px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container{
+    max-width: 840px;
+  }
+  .container2{
+    max-width: 1020px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container{
+    max-width: 1020px;
+  }
+  .container2 {
+    max-width: 1260px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container{
+    max-width: 1260px;
+  }
+  .container2 {
+    max-width: 1340px;
+  }
+}
+
+

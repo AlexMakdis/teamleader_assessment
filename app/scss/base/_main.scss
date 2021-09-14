@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+li,
+button,
+form,
+input {
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1{
+    font-weight: 700!important;
+}
+
+label {
+    font-weight: 600;
+    line-height: 2.5rem;
+}
+
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: none;
+}
+
+
+
+   
