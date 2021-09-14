@@ -1,7 +1,14 @@
-var link = document.getElementById('test');
+const goButton = document.getElementById("goButton");
+const moveButton = document.getElementById("moveButton");
+const boostButton = document.getElementById("boostButton");
 
-analytics.trackLink(link, 'Clicked Free-Trial Link', {
-  plan: 'Enterprise'
+// Segment docs tracking
+analytics.trackLink(goButton, "Clicked Go Free-trial Button", {
+    choice: "Go"
 });
-
-console.log(link)
+analytics.trackLink(moveButton, "Clicked Move Free-trial Button", {
+    choice: "Move"
+});
+analytics.trackLink(boostButton, "Clicked Boost Free-trial Button", {
+    choice: "Boost"
+});

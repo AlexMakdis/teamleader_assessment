@@ -29,6 +29,7 @@ button,
 form,
 input {
   font-family: 'Work Sans', sans-serif;
+  color: #1b1e22;
 }
 
 h1, .h1 {
@@ -12171,6 +12172,7 @@ fieldset:disabled .btn {
   width: -moz-fit-content;
   width: fit-content;
   border-bottom: 1px solid #00b3b3;
+  color: #00b3b3;
 }
 
 .pricing_footer_stats_link_right {
@@ -12269,7 +12271,7 @@ fieldset:disabled .btn {
   height: 1.8rem;
   background-color: #fff;
   border-radius: 10rem;
-  border: #00b3b3 solid .2rem;
+  border: #00b3b3 solid 0.2rem;
   -webkit-transition: -webkit-transform .3s ease-in-out;
   transition: -webkit-transform .3s ease-in-out;
   transition: transform .3s ease-in-out;
@@ -12315,9 +12317,9 @@ fieldset:disabled .btn {
   text-align: center;
   color: #fff;
   background-color: #4f1fff;
-  border: .2rem solid #4f1fff;
-  -webkit-transition: background-color .3s ease-in-out,border-color .3s ease-in-out;
-  transition: background-color .3s ease-in-out,border-color .3s ease-in-out;
+  border: 0.2rem solid #4f1fff;
+  -webkit-transition: background-color .3s ease-in-out, border-color .3s ease-in-out;
+  transition: background-color .3s ease-in-out, border-color .3s ease-in-out;
   cursor: pointer;
 }
 
@@ -12336,8 +12338,8 @@ fieldset:disabled .btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border-top: .1rem solid #c0c0c4;
-  border-bottom: .1rem solid #c0c0c4;
+  border-top: 0.1rem solid #c0c0c4;
+  border-bottom: 0.1rem solid #c0c0c4;
   border-left: none;
   border-right: none;
 }
@@ -12377,8 +12379,8 @@ fieldset:disabled .btn {
 
 .pricing_content_card {
   text-align: center;
-  border-top: .1rem solid #e4e4e7;
-  border-bottom: .1rem solid #e4e4e7;
+  border-top: 0.1rem solid #e4e4e7;
+  border-bottom: 0.1rem solid #e4e4e7;
   padding: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12433,9 +12435,9 @@ fieldset:disabled .btn {
   padding: 0.5rem 2rem;
   color: #fff;
   background-color: #4f1fff;
-  border: .2rem solid #4f1fff;
-  -webkit-transition: background-color .3s ease-in-out,border-color .3s ease-in-out;
-  transition: background-color .3s ease-in-out,border-color .3s ease-in-out;
+  border: 0.2rem solid #4f1fff;
+  -webkit-transition: background-color .3s ease-in-out, border-color .3s ease-in-out;
+  transition: background-color .3s ease-in-out, border-color .3s ease-in-out;
   cursor: pointer;
 }
 
@@ -12445,22 +12447,22 @@ fieldset:disabled .btn {
 }
 
 .first {
-  border-top: .1rem solid #e4e4e7;
-  border-bottom: .1rem solid #e4e4e7;
-  border-right: .05rem solid #e4e4e7;
+  border-top: 0.1rem solid #e4e4e7;
+  border-bottom: 0.1rem solid #e4e4e7;
+  border-right: 0.05rem solid #e4e4e7;
 }
 
 .second {
-  border-top: .1rem solid #e4e4e7;
-  border-bottom: .1rem solid #e4e4e7;
-  border-left: .05rem solid #e4e4e7;
-  border-right: .05rem solid #e4e4e7;
+  border-top: 0.1rem solid #e4e4e7;
+  border-bottom: 0.1rem solid #e4e4e7;
+  border-left: 0.05rem solid #e4e4e7;
+  border-right: 0.05rem solid #e4e4e7;
 }
 
 .third {
-  border-top: .1rem solid #e4e4e7;
-  border-bottom: .1rem solid #e4e4e7;
-  border-left: .05rem solid #e4e4e7;
+  border-top: 0.1rem solid #e4e4e7;
+  border-bottom: 0.1rem solid #e4e4e7;
+  border-left: 0.05rem solid #e4e4e7;
 }
 
 .pricing_content_calculator_toggle_switch--input:checked ~ .pricing_content_calculator_toggle_switch--check::after {
