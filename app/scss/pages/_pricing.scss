@@ -19,7 +19,13 @@
             // Would normally use this but doesn't align right this time.
             // align-items: center; 
             margin-bottom: 50px;
-
+            &_rating{
+                span{
+                    svg{
+                        fill: $stars;
+                    }
+                }
+            }
             &_rating,
             &_google {
                 margin: 0px 20px;

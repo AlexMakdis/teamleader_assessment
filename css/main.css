@@ -12101,6 +12101,10 @@ fieldset:disabled .btn {
   margin-bottom: 50px;
 }
 
+.pricing_header_desc_rating span svg {
+  fill: #fc6;
+}
+
 .pricing_header_desc_rating, .pricing_header_desc_google {
   margin: 0px 20px;
 }
