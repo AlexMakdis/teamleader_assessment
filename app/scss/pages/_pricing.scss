@@ -16,7 +16,8 @@
             display: flex;
             flex-direction: row;
             justify-content: center;
-            align-items: center;
+            // Would normally use this but doesn't align right this time.
+            // align-items: center; 
             margin-bottom: 50px;
 
             &_rating,
@@ -31,7 +32,8 @@
 
             &_description {
                 margin: 0px 10px;
-
+                // Instead of align-items: center; 
+                align-self: center;
                 p {
                     font-size: 0.8rem;
                     vertical-align: middle;

@@ -12098,9 +12098,6 @@ fieldset:disabled .btn {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   margin-bottom: 50px;
 }
 
@@ -12115,6 +12112,9 @@ fieldset:disabled .btn {
 
 .pricing_header_desc_description {
   margin: 0px 10px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .pricing_header_desc_description p {
